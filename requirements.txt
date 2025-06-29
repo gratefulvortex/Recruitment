@@ -3,9 +3,11 @@ pandas
 numpy
 scikit-learn
 python-dotenv
-PyMuPDF==1.23.21
 sentence-transformers==2.2.2
 spacy==3.7.4
 
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+# Precompiled PyMuPDF wheel for Python 3.11
+https://files.pythonhosted.org/packages/1e/99/1bcf9b3ea262eb31b9a2e0a960899d45e9fc25c41f329a0f8ee01c4fc750/PyMuPDF-1.23.21-cp311-cp311-manylinux_2_17_x86_64.whl
 
+# spaCy English model wheel
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
